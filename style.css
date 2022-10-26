@@ -1,0 +1,91 @@
+/* Basic CSS Stylesheet Template */
+
+/* CSS RESET */
+body, header, footer, h1, h2, h3, {
+    margin: 0;
+    padding: 0;
+    border: 0;
+	section: 0;
+	article: 0;
+	aside: 0; 
+}
+
+body {
+    background-image:linear-gradient(to bottom right, teal, aquamarine);
+}
+
+h1, h3, p, a {
+    font-family: 'Halvetica', sans-serif;
+}
+
+h1 {
+    font-size: 72px;
+    padding: 5px 0;
+    font-weight: 1000;
+}
+
+h3 {
+    font-size: 32px;
+    padding: 10px 0;
+    font-weight: 500;
+}
+p {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+body {
+    text-align: center;
+    background: black;
+}
+
+.banner {
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgb(0, 255, 255),black);
+    color: rgb(255, 255, 255);
+    border: 12px outset black;
+}
+
+
+
+.navigation {
+    overflow: hidden;
+    width: 700px;
+    margin: auto;
+}
+
+
+
+a {
+    font-family:'Halvetica', sans-serif;
+    font-size: 36px;
+    transition: color .6s ease-in-out, box-shadow .6s ease-in-out;
+    float: left;
+	text-align: center;
+	padding: 14px 16px;
+
+}
+
+a:hover {
+    box-shadow: inset 200px 0 0 0 rgb(46, 255, 189);
+    color: rgb(0, 0, 0);
+
+}
+
+a:active {
+    color:aqua;
+}
+
+a:visited {
+        color: white;
+}
+
+.homepage_content {
+    font-family: 'Halvetica', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
